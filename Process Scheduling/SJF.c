@@ -1,11 +1,9 @@
 #include <stdio.h>
 #define INT_MAX 2147483647
-
 //Defining Structure for Processor
 struct node{
     int at, bt, ct, wt, tat, start, id, com;
 }pq[10];
-
 void main(){
     int n,current=0,atat=0,awt=0,completed=0,short_bt=INT_MAX,short_p;
     printf("Enter number of processes : ");
