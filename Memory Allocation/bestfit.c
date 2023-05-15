@@ -38,11 +38,11 @@ void main()
     for (int i = 0; i < np; i++)
     {
         printf("%d\t\t%d", i + 1, p[i]);
-        if (allocated[i] != -1)
+        if (allocated[i] != -1){
             printf("\t\t%d", allocated[i] + 1);
+            printf("\t\t%d", b[allocated[i]]);}
         else
             printf("\t\tNot Allocated");
-        printf("\t\t%d", b[allocated[i]]);
         printf("\n");
     }
 }
